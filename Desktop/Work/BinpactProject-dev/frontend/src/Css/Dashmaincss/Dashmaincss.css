@@ -1,0 +1,93 @@
+
+.displayHidenNavbar{
+    display: flex;
+}
+.widht800{
+    width: 800px;;
+}
+.HeadenNavbar{
+    display: flex;
+}
+.ProductFevoiret{
+    display: flex;
+}
+.displayHidenNavbar01{
+    display: none;
+}
+/* Margin */
+.marginLeaftLogo{
+    margin-left: 50px;
+}
+.marginLeaftResposive{
+    margin-left: 100px;
+}
+.marginLeaftResposived{
+    margin-left: 200px;
+}
+.w-Dashboard{
+    width: 80px;
+}
+.marginLeftDashboard{
+    margin-left: 300px;
+}
+.marginLeftDashboard02{
+    margin-left: 250px;
+}
+.marginLeftResposive{
+    margin-left: 40%;
+}
+.MarginLeftRepsoiveFevoireProduct{
+    margin-left:5%;
+}
+
+/* ResposnveSmartphone */
+.ResposiveSmartphone{
+    display: flex;
+}
+.ResposiveSmartphoneiphone{
+    display: none;
+}
+.marginLeftDashboardButique{
+    margin-left: 20%;
+}
+.Backgroundchangehv{
+    height: 100%;
+}
+.marginLeftResposive{
+    margin-left: 0px;
+}
+.MarginLeftProduct{
+    margin-left: 5%;
+}
+.marginLeftResposiveIcon{
+    margin-left: 0px;
+}
+.WidhtResposinvePrestage{
+    width: 30%;
+}
+.MarginLeftRepsoiveProductFevoire{
+    margin-left: 0px;
+}
+
+.MarginLefrReposniveProduuct300px{
+    margin-left: 5%;
+}
+/* WidhtPrestageResposive */
+.wp-Resposive{
+    width: 100%;
+}
+/* FlexResposive */
+.FlexRespoive{
+    display: flex;
+}
+/* FlexNone300Repsoive */
+.FlexNone300Repsoive{
+    display: flex;
+}
+.marginRigth{
+    margin-right: 0px;
+}
+/* Widht */
+.widhtPrestange{
+    width: 100%;
+}
