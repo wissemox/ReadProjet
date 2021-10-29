@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* { margin: 0; padding: 0; }
+::-webkit-scrollbar{
+  background-color: #F2F2F2;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #7FCBAE;
+  height: 50px;
+}
+.fontFamilySite{
+  font-family: 'Ubuntu', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+.FontFamily02{
+  font-family: 'Poppins', sans-serif;
+}
+.fontFamilysite01{
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.FontFamilty04{
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+}
+.FontFaimlyty05{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.Maxwith1500{
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.opacity {
+  background: rgba(216, 198, 198, 0.5);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Grid{
+  display: grid;
+  
+  grid-template-rows: 1fr 1fr 1fr ;
+}
+.PostBox{
+  display: inline-block;
+width: 100%;
+ 
+}
+.MainPage{
+ 
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+
+  padding: 16px;
+  -moz-column-width: 18em;
+	-webkit-column-width: 14em;
+
+}
+.PostBox>img{
+
+}
+.PostBox>h2{
+ font-size: 16px;
+ font-weight: bold;
+}
+.AnimationHoverNavbar{
+  -webkit-transition: 2s;
+
+  animation:animatio02 0.5s;
+}
+.backgroundImagetest{
+  background-image: url("Untitled-2.jpg");
+  width: 50px;
+}
+@keyframes animatio02 {
+  from{
+    margin-top: -70px;
+  }
+  to{
+    margin-top: 0px;
+  }
+  
+}
+.widhtTesTest{
+  width: 8%;
+}
+.HoveTest{
+
+}
+.HoveTest:hover .widhtTesTest{
+  -webkit-transition: 1s;
+
+  width: 20%;
+}
+.justicontentFlexEnd{
+  
+  animation:justicontentFlexEnd01 2.3s;
+
+}
+@keyframes justicontentFlexEnd01 {
+  from{
+    margin-left: 0%;
+  } 
+  to{
+    margin-left: 48%;
+
+  }
+}
+.TestWidht{
+  width: 80%;
+  animation:TestWidht01 2s;
+
+}
+@keyframes TestWidht01 {
+  from{
+   width: 0%;
+  }
+  to{
+    width: 80%;
+  }
+  
+}
+.animatio{
+  -webkit-transition: 2s;
+    animation:animatio 1s;
+}
+@keyframes animatio{
+  from {
+    height: 0vh;
+  }
+
+  to {
+   height: 100vh;
+  }
+}
+.HoverShadow{
+  
+}
+.tesdd{
+  transform:scaleY(0.7);
+}
+.HoverShadow:hover{
+  -webkit-transition: 1s;
+
+  box-shadow: 0 4px 8px 0 rgba(179, 179, 179, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.SahowTest{
+  box-shadow: 0 4px 8px 0 rgba(179, 179, 179, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

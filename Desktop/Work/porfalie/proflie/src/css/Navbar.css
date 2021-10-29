@@ -1,0 +1,20 @@
+.bg-black {
+  background-color: "black";
+}
+
+.halfwith {
+  height: 100vh;
+}
+
+.colorwhite {
+  color: white;
+}
+
+.letterspacing {
+  letter-spacing: 8px;
+}
+
+.letterspacing01 {
+  letter-spacing: 4px;
+}
+/*# sourceMappingURL=Navbar.css.map */

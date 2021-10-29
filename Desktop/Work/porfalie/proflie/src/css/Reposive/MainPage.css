@@ -1,0 +1,64 @@
+.marginLeftResposive {
+  margin-left: 9%;
+}
+
+.marginLeftResposiveButton {
+  margin-left: 9%;
+}
+
+.fontSizeReposive {
+  font-size: 100%;
+}
+
+.f-28px {
+  font-size: 28px;
+}
+
+.FonSizeReposives {
+  font-size: 100px;
+}
+
+.w-15Pr {
+  width: 15%;
+}
+
+.DisplayNonReposive {
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .f-28px {
+    font-size: 28px;
+  }
+}
+
+.paddingTop200 {
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+  .paddingTop200 {
+    padding-top: 280px;
+  }
+  .FonSizeReposives {
+    font-size: 60px;
+  }
+  .f-28px {
+    font-size: 15px;
+  }
+  .w-15Pr {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .DisplayNone {
+    display: none;
+  }
+  .DisplayNonReposive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=MainPage.css.map */
