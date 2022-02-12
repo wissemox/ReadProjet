@@ -1,0 +1,14 @@
+.FontSizeResponsiveFAQ{
+    font-size: 40px;
+}
+.FontSizeResponsiveFAQDescription{
+    font-size: 13px;
+}
+@media screen and (max-width:1400px){
+    .FontSizeResponsiveFAQ{
+        font-size: calc(2vw + 0.9rem);
+    }
+    .FontSizeResponsiveFAQDescription{
+        font-size: calc(0.6vw + 0.4rem);
+    }
+}

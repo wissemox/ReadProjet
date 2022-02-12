@@ -1,0 +1,42 @@
+.w-40prResponsiveDescription{
+    width: 40%;
+}
+.FontSizeResponsiveAddress{
+    font-size: 14px;
+}
+.w-20prResponsiveAddress{
+    width: 20%;
+}
+.widthResponsiveImgAddress{
+    width: 40px;
+    height: 40px;
+}
+@media screen and (max-width:1400px){
+    
+    .w-40prResponsiveDescription{
+        width: 60%;
+    }
+}
+@media screen and (max-width:800px){
+    .w-20prResponsiveAddress{
+        width: 60%;
+    }
+    .FontSizeResponsiveAddress{
+        font-size: 10px;
+    }
+    .w-40prResponsiveDescription{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .widthResponsiveImgAddress{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:300px){
+    .FontSizeResponsiveAddress{
+        font-size: 8px;
+    }
+}

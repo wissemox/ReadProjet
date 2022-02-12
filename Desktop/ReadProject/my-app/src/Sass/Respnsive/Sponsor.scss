@@ -1,0 +1,44 @@
+.widthResponsive30prSponsor{
+    width: 30%;
+}
+.FontSizeResponsiveSponsor{
+    font-size: 35px;
+}
+.WidthResponsiveSponsorCard{
+    width: 60%;
+}
+.PaddingResponsiveSponsorCard{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+@media screen and (max-width:1000px){
+    .FlexDiraction{
+        flex-direction: column;
+    }
+    .widthResponsive30prSponsor{
+        width: 90%;
+    }
+}
+// FontSizeResponsiveSponsor
+
+@media screen and (max-width:800px){
+    .FontSizeResponsiveDescriptionSponsor{
+        font-size: 10px;
+    }
+    .FontSizeResponsiveSponsor{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:600px){
+    .FontSizeResponsiveSponsor{
+        font-size: 28px;
+    }
+}
+// PaddingResponsiveSponsorCard
+
+@media screen and (max-width:400px){
+    .PaddingResponsiveSponsorCard{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}

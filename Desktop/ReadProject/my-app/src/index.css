@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Border */
+.BorderInput{
+   border: solid 2px #E5E5E5;
+}
+/* LogoColor */
+.bgBlue{
+background-color: #1E2433;
+}
+.Animationlogo01{
+  animation:Animationlogo02 2s infinite  ;
+
+}
+.backgroundColorBlue{
+  background-color: rgba(41, 41, 62, 0.381);
+}
+.BoxShadow{
+  box-shadow: 0px 0px 12px rgba(204, 204, 204, 0.25);
+
+}
+.backgroundColorOpacityLow{
+  background-color: rgba(21, 22, 35, 0.34);
+}
+.ChangeStyleScroll::-webkit-scrollbar{
+  background-color: transparent;
+  height: 5px;
+  width: 5px;
+}
+.Hoversq:hover ::-webkit-scrollbar-thumb{
+ background-color: #d6d4d4;
+ border-radius:30px;
+}
+.ChangeStyleScroll::-webkit-scrollbar-thumb{
+   background-color: transparent;
+  height:5px;
+}
+.BackgroundImageurl01{
+  background: url('BackgroundCard.png') no-repeat fixed 100% 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.BackgroundImageurl02{
+  background: url('Untitled-1.svg') no-repeat  100% 100%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.HeightTest{
+  height:calc(25vw + 25vh);
+}
+.PaddingTop{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+  
+ 
+}
+.bg-orange{
+  background-color: #1d2333;
+}
+.colorOragne{
+  color: #1d2333;
+}
+.bg-GradationBlue{
+  background: linear-gradient(180deg, #1D2333 0%, rgba(29, 35, 51, 0) 100%);
+}
+.bg-Gradation{
+  background: linear-gradient(180deg, #dd4b5e28 0%, rgba(3, 23, 75, 0.56) 100%);
+}
+.BackgroundImageurl04{
+  background: url('LoginImageBackground.svg')  ;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media screen and (max-width:1200px){
+  .BackgroundImageurl01{
+    background: url('BackgroundCard01.png') no-repeat fixed 100% 100%;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .BackgroundImageurl04{
+    background: url('LoginImageBackground01.svg')  ;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width:800px){
+  .BackgroundImageurl04{
+    background: url('LoginImageBackground02.svg')  ;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+ @keyframes Animationlogo02{
+  from {
+
+    padding-left: 0vh;
+    padding-bottom: 0vh;
+    transform: rotate(40deg);
+  }
+  to {
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+    transform: rotate(360deg);
+  }
+}
+.WidhtRespnsiveAnimationTable{
+width: 75%;
+}
+.backgroundColorRGB{
+  background-color: rgba(114, 14, 14, 0.13);
+}
+@media screen and (max-width:900px){
+  .BackgroundImageurl02{
+     -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}

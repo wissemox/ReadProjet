@@ -1,0 +1,89 @@
+
+.widthResponsiveNavbar{
+    width: 70%;
+}
+.widthResponsiveNavbar2{
+    width: 30%;
+}
+
+.widthResponsiveImage{
+    width: 25px;
+    height: 25px;
+}
+.DisplayNoneFooterResponsive{
+    display: none;
+}
+.WidthResponsiveIcon{
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+.widthResponsiveFooter{
+    width: 800px;
+}
+@media screen and (max-width:1000px){
+    .widthResponsiveFooter{
+        width: 400px;
+    }
+    .DiplayNoneAppbarDatied{
+        display: none;
+    }
+    .widthResponsiveNavbar{
+        width: 30%;
+    }
+    .widthResponsiveNavbar2{
+        width: 70%;
+    }
+    .DisplayNoneFooterResponsive{
+        display: block;
+    }
+}
+// WidthResponsiveIcon
+@media screen and (max-width:600px){
+    .WidthResponsiveIcon{
+        width: 20px;
+        height: 20px;
+    }
+    .FontSizeResponsive{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:420px){
+
+    .DiplayNoneAppbarDatied{
+        display: none;
+    }
+    .widthResponsiveNavbar{
+        width: 10%;
+    }
+    .widthResponsiveNavbar2{
+        width: 90%;
+    }
+}
+
+
+// FontSizeResponsiveAppBar
+
+@media screen and (max-width:320px){
+    .widthResponsiveImage{
+        width: 15px;
+        height: 15px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .DiplayNoneAppbarDatied{
+        display: none;
+    }
+    .widthResponsiveNavbar{
+        width: 10%;
+    }
+    .widthResponsiveNavbar2{
+        width: 90%;
+    }
+    .FontSizeResponsiveAppBar{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 12px;
+    }
+}

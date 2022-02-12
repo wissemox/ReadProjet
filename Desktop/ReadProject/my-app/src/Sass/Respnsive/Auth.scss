@@ -1,0 +1,81 @@
+.MarginLeft51pr{
+    margin-left: 51%;
+}
+.HeightResponsiveAuth{
+    height: 100%;
+}
+@media screen and (max-width:1400px){
+    .WidthResponsiveAuth{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1200px){
+    .WidthResponsiveAuth{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .WidthResponsiveAuth{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .WidthResponsiveAuth{
+        width: 50%;
+    }
+    .HeightResponsiveAuth{
+        height: 10%;
+    }
+    .WidthResponsiveAuthPositionfixed{
+        width: 100%;
+    }
+    .MarginLeft51pr{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width:700px){
+    .WidthResponsiveAuth{
+        width: 60%;
+    }
+    .HeightResponsiveAuth{
+        height: 10%;
+    }
+    .WidthResponsiveAuthPositionfixed{
+        width: 100%;
+    }
+    .MarginLeft51pr{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width:600px){
+    .WidthResponsiveAuth{
+        width: 80%;
+    }
+    .HeightResponsiveAuth{
+        height: 10%;
+    }
+    .WidthResponsiveAuthPositionfixed{
+        width: 100%;
+    }
+    .MarginLeft51pr{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width:420px){
+
+    .WidthResponsiveAuth{
+        width: 80%;
+    }
+}
+@media screen and (max-width:380px){
+    .WidthResponsiveAuth{
+        width: 90%;
+    }
+}
+@media screen and (max-width:300px){
+    .WidthResponsiveAuth{
+        width: 100%;
+    }
+}

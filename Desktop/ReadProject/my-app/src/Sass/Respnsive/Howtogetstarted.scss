@@ -1,0 +1,41 @@
+.FlexDirectionResponsive{
+    display: flex;
+}
+.widthResponsive30pr{
+    width: 30%;
+}
+.widthResponsive80pr{
+    width: 80%;
+}
+.FontSize60pxResponsive{
+    font-size: 30px;
+}
+.FontSizeResponsiveFAQ18PX{
+    font-size: 18px;
+}
+@media screen and (max-width:1000px){
+    .FontSizeResponsiveFAQ18PX{
+        font-size: calc(1vw + 0.7rem);
+    }
+    .FontSize60pxResponsive{
+        font-size: calc(2vw + 0.8rem);
+    }
+    .FlexDirectionResponsive{
+        flex-direction:column;
+    }
+    .widthResponsive30pr{
+        width: 100%;
+    }
+    .fontSizeResponsiveHowToGetStarted{
+        font-size: 11px;
+    }
+}
+// widthResponsive80pr
+@media screen and (max-width:600px){
+    .FlexDirectionResponsive{
+        flex-direction:column;
+    }
+    .widthResponsive80pr{
+        width: 100%;
+    }
+}
